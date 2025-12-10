@@ -7,6 +7,7 @@ on mouseUp
    local urlComponentsInstance
    put NewURLComponents("https://github.com/emily-elizabeth/URLComponents_LC/tree/main") into urlComponentsInstance
    DisplayURLComponents urlComponentsInstance
+   DeleteURLComponents urlComponentsInstance
 end mouseUp
 
 
