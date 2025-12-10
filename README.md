@@ -1,6 +1,6 @@
 # URLComponents_LC
 
-Takes a URL and separates it in to the individual components. Insert the stack into use (this is a library stack) and call the function **NewURLComponents(_url_)** to get a pointer to the instance. This allows you to pass an instance to multiple commands/functions without having to run the RegEx code multiple times.
+Takes a URL and separates it in to the individual components. Insert the stack into use (this is a library stack) and call the function **NewURLComponents(_url_)** to get a pointer to the instance. This allows you to pass an instance to multiple commands/functions without having to run the RegEx code multiple times. To delete an instance call the command **DeleteURLComponents _instance_**
 
 ```
 on mouseUp
